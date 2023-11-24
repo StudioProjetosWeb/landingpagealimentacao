@@ -9,6 +9,6 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     }).then(response => response.text())
       .then(data => {
           alert(data); // Exibe a mensagem de agradecimento
-          window.location.href = https://studioprojetosweb.com.br/; // Redireciona para a URL
+          window.location.href = 'https://studioprojetosweb.com.br'; // Redireciona para a URL
       });
 });
